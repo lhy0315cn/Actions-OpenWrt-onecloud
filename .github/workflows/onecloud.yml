@@ -140,8 +140,8 @@ jobs:
       run: |
         echo "release_tag=${{ env.FILE_DATE }}-${{ env.OPENWRT_NAME }}-${{ env.DEVICE_NAME }}" >> $GITHUB_OUTPUT
         touch release.txt
-        echo "openclash passwall ssrplus accesscontrol autoreboot eqos smartdns ddns zerotier softether" >> release.txt
-        echo "192.168.2.1" >> release.txt
+        echo "helloworld zerotier" >> release.txt
+        echo "192.168.3.4" >> release.txt
         echo "📥 固件下载" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
         
